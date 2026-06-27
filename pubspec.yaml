@@ -53,9 +53,16 @@ dev_dependencies:
   flutter_spinkit: ^5.2.2
   # ใช้คำสั่ง Flutter pub get เพื่อติดตั้ง Package
 
+  # Step 3: Check internet connection
+  connectivity_plus: ^6.1.5
+
+  # Step 4: Show toast message
+  fluttertoast: ^8.2.12
+  # ใช้คำสั่ง flutter pub get เพื่อติดตั้ง package
+
 # Step 1: Instal icon app
-flutter_icons:
-  android: true
+flutter_launcher_icons:
+  android: "launcher_icon"
   ios: true # ไอคอนบน ios แนวตั้ง
   remove_alpha_ios: true # icon โปร่งใสบน ios
   image_path: "android/app/assets/icon/logo.png"
